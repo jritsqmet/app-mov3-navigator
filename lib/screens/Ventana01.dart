@@ -105,6 +105,7 @@ void mostrarAlerta02(context){
       child: AlertDialog(
         title: Text("Mensaje 02"),
         content: Text("Este es el texto del alerta 02"),
+        
         actions: <Widget> [ 
           //////////////////////////////////////////////////////////
           TextButton(onPressed: (){
